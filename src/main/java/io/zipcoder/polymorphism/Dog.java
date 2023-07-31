@@ -5,8 +5,4 @@ public class Dog extends Pet{
         super(name);
     }
 
-    @Override
-    public void speak() {
-        super.speak();
-    }
 }

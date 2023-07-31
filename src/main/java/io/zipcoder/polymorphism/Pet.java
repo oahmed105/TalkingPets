@@ -1,6 +1,8 @@
 package io.zipcoder.polymorphism;
 
-public class Pet {
+import java.util.ArrayList;
+
+public class Pet extends ArrayList {
     private String name;
 
     public Pet(String name) {
@@ -15,7 +17,4 @@ public class Pet {
         this.name = name;
     }
 
-    public void speak() {
-
-    }
 }
