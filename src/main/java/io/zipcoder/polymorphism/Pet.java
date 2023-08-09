@@ -17,4 +17,8 @@ public class Pet extends ArrayList {
         this.name = name;
     }
 
+    public void speak() {
+
+    }
+
 }
